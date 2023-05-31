@@ -2,7 +2,6 @@ package com.nhnacademy.springbootaccount.service;
 
 import com.nhnacademy.springbootaccount.entity.Account;
 import com.nhnacademy.springbootaccount.repository.AccountRepository;
-import com.nhnacademy.springbootaccount.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 public class AccountVersionController {
-    private AccountProperties accountProperties;
+    private final AccountProperties accountProperties;
 
     @GetMapping("/system/version")
     public String getVersion() {
