@@ -1,15 +1,17 @@
 package com.nhnacademy.springbootaccount.service;
 
-import com.nhnacademy.springbootaccount.entity.Account;
-
+import com.nhnacademy.springbootaccount.domain.Account;
 import java.util.List;
 
+/**
+ * Account 시스템 Service Interface.
+ */
 public interface AccountService {
     List<Account> getAccounts();
 
-    Account createAccount(Account account);
-
     Account getAccount(String number);
 
-    void deleteAccount(String number);
+    Account createAccount(Account account);
+
+    String deleteAccount(String number);
 }

@@ -1,19 +1,17 @@
-package com.nhnacademy.springbootaccount.entity;
+package com.nhnacademy.springbootaccount.domain;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
+/**
+ * Account.
+ */
 @Getter
 @Setter
 @ToString
 @EqualsAndHashCode
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 public class Account {
-    @Id
     private String number;
     private Integer balance;
 }

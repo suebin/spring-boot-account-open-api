@@ -4,9 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "nhn.account")
+/**
+ * backend 서버 호출 URL 설정을 위한 Externalized Configuration.
+ */
+@ConfigurationProperties(prefix = "backend.server")
 @Getter
 @Setter
-public class AccountProperties {
-    private String version;
+public class ServerProperties {
+    private String url;
 }
