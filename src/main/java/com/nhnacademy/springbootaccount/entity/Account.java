@@ -1,4 +1,4 @@
-package com.nhnacademy.springbootaccount;
+package com.nhnacademy.springbootaccount.entity;
 
 import lombok.*;
 

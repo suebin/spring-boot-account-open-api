@@ -1,5 +1,6 @@
-package com.nhnacademy.springbootaccount;
+package com.nhnacademy.springbootaccount.repository;
 
+import com.nhnacademy.springbootaccount.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,5 +1,7 @@
-package com.nhnacademy.springbootaccount;
+package com.nhnacademy.springbootaccount.controller;
 
+import com.nhnacademy.springbootaccount.service.AccountService;
+import com.nhnacademy.springbootaccount.entity.Account;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
